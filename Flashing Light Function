@@ -1,0 +1,28 @@
+#include <stdio.h> 
+
+#define TEMP_MIN 36  // minimum body temperature of detection for proximity sensor 
+#define TEMP_MAX 38  // maximum body temperature of detection for proximity sensor 
+
+
+int main(void) { 
+	
+	int touch // 1 for press, 0 for release 
+	
+	int temp // temperature of object measured by infrared sensor
+
+	int distance_detection // radar detection is 1 if target is within range 
+  
+
+while(deadman == 0) { 
+
+	if (distance_detection == 1) && (TEMP_MIN < temp < TEMP_MAX)) {
+
+    light = 1 
+  }
+  
+  else if (touch == 1) { 
+   
+    light = 1 
+  
+  }
+}
